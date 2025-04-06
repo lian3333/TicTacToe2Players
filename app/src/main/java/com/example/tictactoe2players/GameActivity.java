@@ -18,7 +18,6 @@ public class GameActivity extends AppCompatActivity {
         setContentView(boardGame);
     }
 
-
     public void setPositionToFb(int line, int col) {
         fbModule.setPositionToFirebase(new Position(line,col));
 
